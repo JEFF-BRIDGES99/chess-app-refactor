@@ -1,0 +1,154 @@
+.app {
+  text-align: center;
+  background-color: #F0F0F0;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  margin-bottom: 20px;
+}
+
+.navbar a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.navbar a.is-active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.main-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.scoreboard {
+  background-color: white;
+  box-shadow: 0 1px 1px 0 gray;
+  margin-left: 25px;
+}
+
+.sidebar {
+  background-color: white;
+  box-shadow: 0px 1px 2px 1px rgba(0,0,0,0.5);
+  padding-left: 10px;
+}
+
+.button-container {
+  box-shadow: 0px 1px 0px 0px rgba(0,0,0,0.2);
+  background-color: #F0F0F0;
+  display: flex;
+  flex-wrap: wrap;
+  height: 40px;
+}
+
+.button-container > button {
+  flex: 1 0 19%;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+  width: 80px;
+  padding: 1px;
+}
+
+.opponent-name, .player-name {
+  padding: 10px;
+  text-align: left;
+}
+
+.control-buttons > button {
+  flex: 1 0 19%;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+  width: 80px;
+  padding: 1px;
+}
+
+.match-history {
+  overflow-y: scroll;
+  scrollbar-width: 0;
+  height: 175px;
+}
+
+.match-history::-webkit-scrollbar {
+  display: none;
+}
+
+.icon {
+  vertical-align: middle;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  width: auto;
+  max-height: 15px;
+  max-width: 15px;
+}
+
+.history-move {
+  display: flex;
+}
+
+.history-move > * {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.history-move > .turn-number {
+  width: 20%;
+  background-color: #F0F0F0;
+}
+
+.history-white-move, .history-black-move {
+  width: 40%;
+}
+
+button:hover img{
+  -webkit-filter: invert(100%) !important;
+  filter: invert(100%) !important;
+}
+
+button:hover {
+  background-color: #6DC23C;
+}
+
+.control-buttons {
+  height: 40px;
+}
+
+.control-buttons > button {
+  height: 100%;
+}
+
+.fen-copy-button > button {
+  padding: 0;
+  border: none;
+  background: none;
+}
+
+.fen-copy-button > button:hover {
+  background-color: #6DC23C;
+}

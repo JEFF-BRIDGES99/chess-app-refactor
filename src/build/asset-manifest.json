@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1ef93df6.chunk.css",
+    "main.js": "/static/js/main.0bad9664.chunk.js",
+    "main.js.map": "/static/js/main.0bad9664.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.2127e9ea.js",
+    "runtime-main.js.map": "/static/js/runtime-main.2127e9ea.js.map",
+    "static/js/2.0f3581b8.chunk.js": "/static/js/2.0f3581b8.chunk.js",
+    "static/js/2.0f3581b8.chunk.js.map": "/static/js/2.0f3581b8.chunk.js.map",
+    "static/js/3.3cb93c28.chunk.js": "/static/js/3.3cb93c28.chunk.js",
+    "static/js/3.3cb93c28.chunk.js.map": "/static/js/3.3cb93c28.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.1ef93df6.chunk.css.map": "/static/css/main.1ef93df6.chunk.css.map",
+    "static/js/2.0f3581b8.chunk.js.LICENSE.txt": "/static/js/2.0f3581b8.chunk.js.LICENSE.txt",
+    "static/js/3.3cb93c28.chunk.js.LICENSE.txt": "/static/js/3.3cb93c28.chunk.js.LICENSE.txt",
+    "static/media/Capture.2787600f.ogg": "/static/media/Capture.2787600f.ogg",
+    "static/media/Defeat.9f7038bf.ogg": "/static/media/Defeat.9f7038bf.ogg",
+    "static/media/Move.1cf67c4c.ogg": "/static/media/Move.1cf67c4c.ogg",
+    "static/media/draw.ffd38bd5.svg": "/static/media/draw.ffd38bd5.svg",
+    "static/media/flag.710495cc.svg": "/static/media/flag.710495cc.svg",
+    "static/media/takeback.228990ee.svg": "/static/media/takeback.228990ee.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2127e9ea.js",
+    "static/js/2.0f3581b8.chunk.js",
+    "static/css/main.1ef93df6.chunk.css",
+    "static/js/main.0bad9664.chunk.js"
+  ]
+}
